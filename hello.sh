@@ -2,4 +2,13 @@
 
 echo " Hello World ! "
 
+if [ $# = 0 ]
+then
+	echo " Hello stranger ! "
+else
+	for i in $* 
+	do
+		echo " Hello " i “ ! "
+	done 
+		
 
