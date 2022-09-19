@@ -11,4 +11,4 @@ else
 		echo " Hello " i “ ! "
 	done 
 		
-
+echo "Test 2"
